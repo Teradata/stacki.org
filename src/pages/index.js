@@ -1,13 +1,6 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Carousel from 'react-bootstrap/Carousel'
-import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card'
-import { Header } from '../components/header'
+import { Header } from '../components/Header'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
