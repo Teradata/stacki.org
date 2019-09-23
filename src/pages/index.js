@@ -58,13 +58,13 @@ const HowToGet = () => (
           <a href="https://github.com/Teradata/stacki/releases/tag/stacki-5.0-rhel7">
             Stacki 5.0
           </a>{' '}
-          was release on 11/30/2017.
+          was released on 11/30/2017.
         </p>
         <p>
-          Yeah we know, we are working to pull togeth a fresh release for CentOS
-          7.7 in early October 2019. Development has been extremely active since
-          our last release, but we've been focused on SuSe and haven't had the
-          cycles to pull together an open-source CentOS version.
+          Yeah we know, we are working to pull together a fresh release for
+          CentOS 7.7 in early October 2019. Development has been extremely
+          active since our last release, but we've been focused on SuSe and
+          haven't had the cycles to pull together an open-source CentOS version.
         </p>
         <h2>Docs</h2>
         <p>
@@ -86,10 +86,10 @@ const HowToGet = () => (
 )
 
 export default () => (
-  <div>
+  <>
     <Header />
     <Logo />
     <WhatIsIt />
     <HowToGet />
-  </div>
+  </>
 )
