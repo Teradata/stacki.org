@@ -75,7 +75,7 @@ const HowToGet = () => (
         <h2>Contact</h2>
         <p>
           Join us on{' '}
-          <a href="https://join.slack.com/t/stacki/shared_invite/enQtMzEwOTIzMTIyOTk1LWMzMGJhZGUxNDc2ODczMDM1ODkwYmM5MGZlOWUxMTVmMDQ5NzZhZmVmNDEwZDIwZWY3NzVlOGM0NjIxMjJiYjY">
+          <a href="https://join.slack.com/t/stacki/shared_invite/enQtMzEwOTIzMTIyOTk1LTFmNGM2NmNjZjNjNzhkYzUyMTg1OThhNzE5MmUzOWE1MGE1YTVmNDE5YmYxMzJmYjY3MDg0MGEwNGRmNmU3ZjM">
             Slack
           </a>{' '}
           (stacki.slack.com) to ask questions and complain.
