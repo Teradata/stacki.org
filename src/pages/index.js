@@ -49,29 +49,62 @@ const WhatIsIt = () => (
   </Card>
 )
 
-const HowToGet = () => (
+const LatestRelease = () => (
   <Card>
     <Card.Body>
       <Card.Text>
-        <h2>Release</h2>
+        <h2>Stacki 5.4 Release</h2>
         <p>
-          <a href="https://github.com/Teradata/stacki/releases/tag/stacki-5.0-rhel7">
-            Stacki 5.0
-          </a>{' '}
-          was released on 11/30/2017.
+          The Stacki team is totally stoked to announce Stacki 5.4, the most
+          thoroughly tested (knock on wood) release of Stacki to date, with a
+          number of new features, bugfixes, refactors. Stacki is totally rad and
+          you should use it to deploy all of your bare metal CentOS/RHEL 7.x,
+          and SLES 12 machines in a fast, scalable, and repeatable manner. Or
+          even VM's, if you're into that sort of thing.
         </p>
+        <p>ISOs</p>
+        <ul>
+          <li>
+            <a href="http://teradata-stacki.s3.amazonaws.com/release/stacki/5.x/stacki-5.4-redhat7.x86_64.disk1.iso">
+              Stacki
+            </a>
+          </li>
+          <li>
+            <a href="http://teradata-stacki.s3.amazonaws.com/release/stacki/5.x/stackios-5.4-redhat7.x86_64.disk1.iso">
+              StackiOS
+            </a>
+          </li>
+        </ul>
+        <p>VM Images</p>
+        <ul>
+          <li>
+            <a href="http://teradata-stacki.s3.amazonaws.com/release/stacki/5.x/stacki-5.4-redhat7.qcow2">
+              qcow2
+            </a>
+          </li>
+          <li>
+            <a href="http://teradata-stacki.s3.amazonaws.com/release/stacki/5.x/stacki-5.4-redhat7.ova">
+              ova
+            </a>
+          </li>
+        </ul>
         <p>
-          Yeah we know, we are working to pull together a fresh release for
-          CentOS 7.7 in early October 2019. Development has been extremely
-          active since our last release, but we've been focused on SuSe and
-          haven't had the cycles to pull together an open-source CentOS version.
+          Visit us on our Slack (see below) for more details on this release, or
+          check out the very raw{' '}
+          <a href="https://github.com/Teradata/stacki/releases/tag/stacki-5.4">
+            release notes
+          </a>
+          .
         </p>
-        <h2>Docs</h2>
-        <p>
-          All the documentation is part of the{' '}
-          <a href="https://github.com/Teradata/stacki">Git Hub</a> project in
-          our <a href="https://github.com/Teradata/stacki/wiki">Wiki</a>.
-        </p>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+)
+
+const Info = () => (
+  <Card>
+    <Card.Body>
+      <Card.Text>
         <h2>Contact</h2>
         <p>
           Join us on{' '}
@@ -90,6 +123,7 @@ export default () => (
     <Header />
     <Logo />
     <WhatIsIt />
-    <HowToGet />
+    <LatestRelease />
+    <Info />
   </>
 )
